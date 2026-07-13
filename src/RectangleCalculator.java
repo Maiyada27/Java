@@ -1,4 +1,4 @@
-public class Task1 {
+public class RectangleCalculator {
 
     public static void main(String[] args) {
         Double length = 12.5;
@@ -12,5 +12,8 @@ public class Task1 {
     System.out.println("Width: " + width);
     System.out.println("Area: " + area);
     System.out.println("perimeter: " + perimeter);
+
+
+
     }
 }
