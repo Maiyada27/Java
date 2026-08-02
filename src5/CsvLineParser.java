@@ -22,7 +22,7 @@ public class CsvLineParser {
             IO.println("Minor");
         }else if (age>=18 && age < 65){
             IO.println("Adult");
-        } else if (age >= 65) {
+        } else{
             IO.println("Senior");
         }
 
