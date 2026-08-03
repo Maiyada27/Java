@@ -96,6 +96,7 @@ public class StudentRegistrationManager {
                 IO.println("No registrations to undo.");
             } else {
                 String undone = registrationStack.pop();
+                registrationQueue.offer(undone);
                 IO.println("Registration undone for: " + undone);
             }
         }
