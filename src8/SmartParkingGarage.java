@@ -93,10 +93,10 @@ public class SmartParkingGarage {
             IO.println("No remaining cars waiting in queue.");
         } else {
             String nextVehicle = waitingVehicles.poll();
+            if(! parkedVehicles.contains(nextVehicle)){
             parkedVehicles.push(nextVehicle);
             parkedCounter += 1;
             IO.println("Vehicle: " + nextVehicle + " parked.");
-
         }
     }
 
